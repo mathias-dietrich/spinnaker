@@ -4,8 +4,9 @@ pipeline {
     }
     stages {
         stage('Test') {
-            steps {
-                sh 'node --version'
+                steps {
+                checkout('https://https://github.com/mathias-dietrich/spinnaker.git')
+                
             }
         }
     }
