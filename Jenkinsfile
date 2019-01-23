@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage('Test') {
                 steps {
-                checkout('https://https://github.com/mathias-dietrich/spinnaker.git')
+                checkout('https://github.com/mathias-dietrich/spinnaker.git')
                 
             }
         }
